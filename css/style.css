@@ -80,8 +80,7 @@
       }
 
       iframe {
-        width: 400px;
-        height: 300px;
+        width: 100%;
       }
 
       #comeco {
@@ -161,7 +160,7 @@
     background-image: url("../img/main-photo.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
   }
 
   #main-photo {
@@ -183,8 +182,7 @@
   }
 
   iframe {
-    width: 400px;
-    height: 300px;
+    width: 100%;
   }
 
   #comeco {
