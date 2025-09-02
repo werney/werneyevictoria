@@ -146,7 +146,7 @@ updateCountdown();
 setInterval(updateCountdown, 1000);
 
 function copiarPix() {
-    const chavePix = "seu-email@exemplo.com";
+    const chavePix = "8cb8b19d-1a8d-49df-9fcd-bc8051b6406c";
     navigator.clipboard.writeText(chavePix).then(() => {
       const msg = document.getElementById("mensagem");
       msg.textContent = "Copiado!";
